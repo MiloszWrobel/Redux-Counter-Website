@@ -1,9 +1,11 @@
-import Counter from './components/Counter';
-
+import Counter from "./components/Counter";
 
 function App() {
   return (
-    <Counter />
+    <>
+      <Counter />
+      <h2>Test header</h2>
+    </>
   );
 }
 
